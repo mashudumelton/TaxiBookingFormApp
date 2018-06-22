@@ -1,0 +1,17 @@
+
+        <div class="nav">
+          <!-- <ul>
+            <li><a routerLink="/event">Home</a></li>
+            <li><a routerLink="/contact">Contact</a></li>
+            <li><a routerLink="/about">About</a></li>
+          </ul> -->
+          <app-navbar *ngFor="let page of pages" [page]= "page.page" [name]="page.name" [firstname]= "firstname" [pickupaddress]="pickupaddress"[surname]= "surname" [age]= "age" [mobilenumber]= "mobilenumber" [numberofpeople]= "numberofpeople" [departure]= "departure" [mobilenumber]= "mobilenumber" [email]= "email" [destinationaddress]= "destinationaddress" [date] ="date" [traveller]="traveller" [departure]= "departure" [arrival]="arrival"></app-navbar>
+          </div>
+<!-- <div id="body">
+  <div id="left-menu">
+  
+
+  </div>
+</div>  -->
+
+<router-outlet></router-outlet>

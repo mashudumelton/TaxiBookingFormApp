@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    color: brown;
+}
+.nav {
+    
+    background-color:transparent;
+    text-emphasis: none;
+    text-align: center;
+    top: 0;
+    margin-left: 30%;
+    position: fixed;
+  }
+  .nav ul li{
+    float: left;
+    display:inline-block;
+    margin-left: 50px;
+    font-size: 50px;
+    text-decoration-color: black ;
+  top:0;
+  
+  }
+  form{
+      text-align: center;
+  }

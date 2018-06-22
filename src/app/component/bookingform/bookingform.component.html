@@ -1,0 +1,43 @@
+
+        <div class="nav">
+            <ul>
+              <li><a routerLink="/">Home</a></li>
+        
+              <li><a routerLink="/contact">Contact</a></li>
+              <li><a routerLink="/about">About</a></li>
+            </ul>
+    
+        
+<form text-align=center>
+    First Name:<br>
+<input class="input" type="text" placeholder="Name" name="firstname" [(ngModel)]="firstname"><br><br>
+Surname:<br>
+<input class="input" type="text" placeholder="Surname" name="surname" [(ngModel)]="surname"><br><br>
+Age:<br>
+<input class="input" type="text" placeholder="Age" name="age" [(ngModel)]="age"><br><br>
+Mobile Number:<br>
+<input class="input" type="tel" placeholder="eg 0872517718" name="mobilenumber" [(ngModel)]="mobilenumber"><br><br>
+E-mail:<br>
+<input class="input" type="text" placeholder="email" name="email" [(ngModel)]="email"><br><br>
+Departure:<br>
+<input class="input" type="text" placeholder="Departure" name="departure" [(ngModel)]="departure"><br><br> 
+Arrival:<br>
+<input class="input" type="text" placeholder="Arrival" name="arrival" [(ngModel)]="arrival"><br><br>
+Date:<br>
+<input class="input" type="date" placeholder="Date" name="date" [(ngModel)]="date"><br><br>
+ Pick up Time:<br>
+<input class="input" type="time" placeholder="time" name="traveller" [(ngModel)]="traveller"><br><br>
+<br>
+Pick up Address:<br>
+<input class="input" type="address" placeholder="pick up address" name="address" [(ngModel)]="pickupaddress"><br><br>
+Destination Address:<br>
+<input class="input" type="text" placeholder="destinationaddress " name="destinationaddress" [(ngModel)]="destinationaddress"><br><br>
+Number of People:<br>
+<input class="input" type="number" placeholder="eg 14" name="numberofpeople" [(ngModel)]="numberofpeople"><br><br>
+<br>
+<br>
+<br>
+<input type="submit" (click)="booking()" value="Submit">
+
+<form>
+
